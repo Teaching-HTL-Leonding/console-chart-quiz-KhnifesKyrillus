@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\khnif\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\khnif\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ConsoleChart.1011808897.00" t="ExcludeRecursive" />
+    <e p="C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart" t="IncludeFlat">
+      <e p="ConsoleChart" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ChartController.cs" t="Include" />
+        <e p="ChartItem.cs" t="Include" />
+        <e p="ConsoleChart.csproj" t="IncludeRecursive" />
+        <e p="data.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ConsoleChart.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="ConsoleChart.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

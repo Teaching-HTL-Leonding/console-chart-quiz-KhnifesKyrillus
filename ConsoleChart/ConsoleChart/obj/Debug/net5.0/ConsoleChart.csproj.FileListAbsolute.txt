@@ -1,0 +1,16 @@
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.csprojAssemblyReference.cache
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.AssemblyInfoInputs.cache
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.AssemblyInfo.cs
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.csproj.CoreCompileInputs.cache
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.exe
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.deps.json
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.runtimeconfig.json
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.runtimeconfig.dev.json
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.dll
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ref\ConsoleChart.dll
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\bin\Debug\net5.0\ConsoleChart.pdb
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.dll
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ref\ConsoleChart.dll
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.pdb
+C:\Users\khnif\Documents\Schule\C#\console-chart-quiz-KhnifesKyrillus\ConsoleChart\ConsoleChart\obj\Debug\net5.0\ConsoleChart.genruntimeconfig.cache
