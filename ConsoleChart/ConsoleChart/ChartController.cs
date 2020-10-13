@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -10,13 +10,11 @@ namespace ConsoleChart
     {
         private int maxValue;
         private int length;
+        private string arg;
 
-        public ChartController()
+        public ChartController(string arg, int length = 0)
         {
-        }
-
-        public ChartController(int length)
-        {
+            this.arg = arg;
             this.length = length;
         }
 
@@ -37,10 +35,11 @@ namespace ConsoleChart
                     g => new
                     {
                         Key = g.Key,
-                        Attacks = g.Sum(s => s.Attacks),
+                        Value = g.Sum(s => s.Attacks),
                     }).ToList();
-            result = result.OrderByDescending(r => r.Attacks).ToList();
-            this.maxValue = result.First().Attacks;
+
+            result = result.OrderByDescending(r => r.Value).ToList();
+            this.maxValue = result.First().Value;
             if (length == 0)
             {
                 length = result.Count;
@@ -51,7 +50,7 @@ namespace ConsoleChart
             {
                 if (count >= length) return;
                 Console.Write($"{line.Key,-70}|\t");
-                PrintBlanks(line.Attacks);
+                PrintBlanks(line.Value);
                 Console.WriteLine();
                 count++;
             }
@@ -59,7 +58,7 @@ namespace ConsoleChart
 
         private void PrintBlanks(int value)
         {
-            Console.BackgroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.DarkRed;
             for (int i = 0; i < CalculatePercentage(value); i++)
             {
                 Console.Write(" ");

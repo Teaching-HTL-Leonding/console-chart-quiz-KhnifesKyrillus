@@ -12,14 +12,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConsoleChart/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AF2E7F02-0369-4324-92AE-8977BFB1D0BA/2C/Sum.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C8ED13E4-D063-4320-B29F-942B57A64198/32/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AF2E7F02-0369-4324-92AE-8977BFB1D0BA/13/Count.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/ChartConstants.cs" />
-      <option value="$PROJECT_DIR$/ConsoleChart/ChartController.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/Program.cs" />
+      <option value="$PROJECT_DIR$/ConsoleChart/ChartController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iaHyot6m0jU1xI0ZBpVlVjtiuh" />
@@ -29,7 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -82,6 +84,13 @@
       <workItem from="1602157129051" duration="2868000" />
       <workItem from="1602164440270" duration="3443000" />
       <workItem from="1602187925914" duration="3873000" />
+      <workItem from="1602192058088" duration="125000" />
+      <workItem from="1602224277036" duration="2083000" />
+      <workItem from="1602226803716" duration="286000" />
+      <workItem from="1602500482284" duration="669000" />
+      <workItem from="1602502128199" duration="390000" />
+      <workItem from="1602526028230" duration="2879000" />
+      <workItem from="1602568455579" duration="4136000" />
     </task>
     <servers />
   </component>
