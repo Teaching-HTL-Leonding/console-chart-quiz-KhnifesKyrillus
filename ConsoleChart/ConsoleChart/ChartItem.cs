@@ -4,41 +4,25 @@ namespace ConsoleChart
 {
     public class ChartItem
     {
-        private String country;
-        private String dayTime;
-        private String animal;
-        private int attacks;
+        private String text;
+        private int value;
 
-        public ChartItem(string country, string dayTime, string animal, int attacks)
+        public ChartItem(string text, int value)
         {
-            this.country = country;
-            this.dayTime = dayTime;
-            this.animal = animal;
-            this.attacks = attacks;
+            this.text = text;
+            this.value = value;
         }
 
-        public string Country
+        public string Text
         {
-            get => country;
-            set => country = value ?? throw new ArgumentNullException(nameof(value));
+            get => text;
+            set => text = value ?? throw new ArgumentNullException(nameof(value));
         }
 
-        public string DayTime
+        public int Value
         {
-            get => dayTime;
-            set => dayTime = value ?? throw new ArgumentNullException(nameof(value));
-        }
-
-        public string Animal
-        {
-            get => animal;
-            set => animal = value ?? throw new ArgumentNullException(nameof(value));
-        }
-
-        public int Attacks
-        {
-            get => attacks;
-            set => attacks = value;
+            get => value;
+            set => this.value = value;
         }
     }
 }

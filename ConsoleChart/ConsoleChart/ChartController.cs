@@ -10,11 +10,9 @@ namespace ConsoleChart
     {
         private int maxValue;
         private int length;
-        private string arg;
 
-        public ChartController(string arg, int length = 0)
+        public ChartController(int length = 0)
         {
-            this.arg = arg;
             this.length = length;
         }
 
@@ -35,7 +33,7 @@ namespace ConsoleChart
                     g => new
                     {
                         Key = g.Key,
-                        Value = g.Sum(s => s.Attacks),
+                        Value = g.Sum(s => s.Value),
                     }).ToList();
 
             result = result.OrderByDescending(r => r.Value).ToList();
