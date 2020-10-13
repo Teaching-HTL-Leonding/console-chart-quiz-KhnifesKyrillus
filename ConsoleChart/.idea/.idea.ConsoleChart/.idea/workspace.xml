@@ -19,9 +19,9 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/ConsoleChart/ChartConstants.cs" />
-      <option value="$PROJECT_DIR$/ConsoleChart/ChartController.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/Program.cs" />
+      <option value="$PROJECT_DIR$/ConsoleChart/ChartController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iaHyot6m0jU1xI0ZBpVlVjtiuh" />
@@ -90,7 +90,7 @@
       <workItem from="1602500482284" duration="669000" />
       <workItem from="1602502128199" duration="390000" />
       <workItem from="1602526028230" duration="2879000" />
-      <workItem from="1602568455579" duration="7396000" />
+      <workItem from="1602568455579" duration="7723000" />
     </task>
     <servers />
   </component>

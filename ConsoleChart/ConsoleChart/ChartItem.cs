@@ -4,13 +4,12 @@ namespace ConsoleChart
 {
     public class ChartItem
     {
-        private String text;
-        private int value;
+        private string text;
 
         public ChartItem(string text, int value)
         {
             this.text = text;
-            this.value = value;
+            this.Value = value;
         }
 
         public string Text
@@ -19,10 +18,6 @@ namespace ConsoleChart
             set => text = value ?? throw new ArgumentNullException(nameof(value));
         }
 
-        public int Value
-        {
-            get => value;
-            set => this.value = value;
-        }
+        public int Value { get; set; }
     }
 }

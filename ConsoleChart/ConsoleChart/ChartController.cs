@@ -1,14 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Reflection;
 
 namespace ConsoleChart
 {
     public class ChartController
     {
-        private int maxValue;
         private int length;
 
         public ChartController(int length = 0)
@@ -16,14 +13,11 @@ namespace ConsoleChart
             this.length = length;
         }
 
-        public int MaxValue
-        {
-            get => maxValue;
-        }
+        public int MaxValue { get; private set; }
 
         private int CalculatePercentage(int value)
         {
-            return (int) Math.Round(((double) value / maxValue) * 100);
+            return (int) Math.Round((double) value / MaxValue * 100);
         }
 
         public void Print(IEnumerable<IGrouping<string, ChartItem>> enumerable)
@@ -32,18 +26,15 @@ namespace ConsoleChart
                 .Select(
                     g => new
                     {
-                        Key = g.Key,
-                        Value = g.Sum(s => s.Value),
+                        g.Key,
+                        Value = g.Sum(s => s.Value)
                     }).ToList();
 
             result = result.OrderByDescending(r => r.Value).ToList();
-            this.maxValue = result.First().Value;
-            if (length == 0)
-            {
-                length = result.Count;
-            }
+            MaxValue = result.First().Value;
+            if (length == 0) length = result.Count;
 
-            int count = 0;
+            var count = 0;
             foreach (var line in result)
             {
                 if (count >= length) return;
@@ -57,10 +48,7 @@ namespace ConsoleChart
         private void PrintBlanks(int value)
         {
             Console.BackgroundColor = ConsoleColor.DarkRed;
-            for (int i = 0; i < CalculatePercentage(value); i++)
-            {
-                Console.Write(" ");
-            }
+            for (var i = 0; i < CalculatePercentage(value); i++) Console.Write(" ");
 
             Console.ResetColor();
         }

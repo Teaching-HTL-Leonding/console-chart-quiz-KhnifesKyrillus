@@ -4,9 +4,9 @@ using System.Linq;
 
 namespace ConsoleChart
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             if (args.Length < 2)
             {
@@ -15,23 +15,18 @@ namespace ConsoleChart
             }
 
             List<ChartItem> items = new List<ChartItem>();
-            String line = Console.ReadLine();
-            String[] categories = line.Split('\t');
-            int textIndex = Array.IndexOf(categories, args[0]);
-            int valueIndex = Array.IndexOf(categories, args[1]);
+            string line = Console.ReadLine();
+            string[] categories = line.Split('\t');
+            var textIndex = Array.IndexOf(categories, args[0]);
+            var valueIndex = Array.IndexOf(categories, args[1]);
             line = Console.ReadLine();
             while (true)
             {
-                if (String.IsNullOrEmpty(line))
-                {
-                    break;
-                }
+                if (string.IsNullOrEmpty(line)) break;
 
-                int value = 0;
+                var value = 0;
                 if (textIndex < line.Split('\t').Length && valueIndex < line.Split('\t').Length)
-                {
                     value = int.Parse(line.Split('\t')[valueIndex]);
-                }
 
                 items.Add(new ChartItem(line.Split('\t')[textIndex], value)
                 );
