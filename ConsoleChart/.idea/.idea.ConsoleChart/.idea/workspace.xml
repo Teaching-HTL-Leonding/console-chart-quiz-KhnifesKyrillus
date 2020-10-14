@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13ea19b-12fa-41db-9135-16c0aae73ed4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChart/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/ChartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/ChartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ref/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ref/ConsoleChart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ref/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ref/ConsoleChart.dll" afterDir="false" />
-    </list>
+    <list default="true" id="f13ea19b-12fa-41db-9135-16c0aae73ed4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,8 +21,8 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/ConsoleChart/ChartConstants.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" />
-      <option value="$PROJECT_DIR$/ConsoleChart/Program.cs" />
       <option value="$PROJECT_DIR$/ConsoleChart/ChartController.cs" />
+      <option value="$PROJECT_DIR$/ConsoleChart/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1iaHyot6m0jU1xI0ZBpVlVjtiuh" />
@@ -105,6 +94,7 @@
       <workItem from="1602526028230" duration="2879000" />
       <workItem from="1602568455579" duration="8071000" />
       <workItem from="1602682044885" duration="2862000" />
+      <workItem from="1602686393058" duration="332000" />
     </task>
     <servers />
   </component>
