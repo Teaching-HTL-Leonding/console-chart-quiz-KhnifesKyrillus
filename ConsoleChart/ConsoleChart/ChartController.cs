@@ -45,7 +45,7 @@ namespace ConsoleChart
                     entry => new ChartItem(
                         entry.Key,
                         entry.Sum(e => e.Value)
-                    )).ToList().OrderByDescending(r => r.Value).ToList();
+                    )).OrderByDescending(r => r.Value).ToList();
             ;
             return result;
         }
