@@ -4,18 +4,18 @@ namespace ConsoleChart
 {
     public class ChartItem
     {
-        private string text;
+        private string _text;
 
         public ChartItem(string text, int value)
         {
-            this.text = text;
+            _text = text;
             Value = value;
         }
 
         public string Text
         {
-            get => text;
-            set => text = value ?? throw new ArgumentNullException(nameof(value));
+            get => _text;
+            set => _text = value ?? throw new ArgumentNullException(nameof(value));
         }
 
         public int Value { get; set; }

@@ -23,11 +23,8 @@ namespace ConsoleChart
             var valueIndex = Array.IndexOf(categories, args[1]);
 
             line = Console.ReadLine();
-            while (true)
+            while (!string.IsNullOrEmpty(line))
             {
-                if (string.IsNullOrEmpty(line)) break;
-
-
                 items.Add(new ChartItem(line.Split('\t')[textIndex], int.Parse(line.Split('\t')[valueIndex]))
                 );
                 line = Console.ReadLine();

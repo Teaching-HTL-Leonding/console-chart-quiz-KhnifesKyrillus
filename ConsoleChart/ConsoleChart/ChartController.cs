@@ -10,7 +10,7 @@ namespace ConsoleChart
 
         public ChartController(int length = 0)
         {
-            this._length = length;
+            _length = length;
         }
 
         public int MaxValue { get; private set; }
