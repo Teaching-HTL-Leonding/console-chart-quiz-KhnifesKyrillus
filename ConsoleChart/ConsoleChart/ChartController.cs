@@ -6,11 +6,11 @@ namespace ConsoleChart
 {
     public class ChartController
     {
-        private int length;
+        private int _length;
 
         public ChartController(int length = 0)
         {
-            this.length = length;
+            this._length = length;
         }
 
         public int MaxValue { get; private set; }
@@ -25,12 +25,12 @@ namespace ConsoleChart
             List<ChartItem> result = GroupList(enumerable);
 
             MaxValue = result.First().Value;
-            if (length == 0) length = result.Count;
+            if (_length == 0) _length = result.Count;
 
             var count = 0;
             foreach (ChartItem line in result)
             {
-                if (count >= length) return;
+                if (count >= _length) return;
                 Console.Write($"{line.Text,-70}|\t");
                 PrintBlanks(line.Value);
                 Console.WriteLine();
