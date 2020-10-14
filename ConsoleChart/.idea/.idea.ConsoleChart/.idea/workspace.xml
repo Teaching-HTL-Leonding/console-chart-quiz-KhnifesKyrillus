@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13ea19b-12fa-41db-9135-16c0aae73ed4" name="Default Changelist" comment="" />
+    <list default="true" id="f13ea19b-12fa-41db-9135-16c0aae73ed4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleChart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleChart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/ChartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/ChartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/ChartItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ref/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ref/ConsoleChart.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ConsoleChart.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ref/ConsoleChart.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleChart/obj/Debug/net5.0/ref/ConsoleChart.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AF2E7F02-0369-4324-92AE-8977BFB1D0BA/2C/Sum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C8ED13E4-D063-4320-B29F-942B57A64198/32/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AF2E7F02-0369-4324-92AE-8977BFB1D0BA/13/Count.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AF2E7F02-0369-4324-92AE-8977BFB1D0BA/46/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -31,7 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -43,13 +55,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="ConsoleChart" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0/ConsoleChart.dll" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="animal attacks 10 &lt;data.txt" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConsoleChart/bin/Debug/net5.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -90,7 +103,8 @@
       <workItem from="1602500482284" duration="669000" />
       <workItem from="1602502128199" duration="390000" />
       <workItem from="1602526028230" duration="2879000" />
-      <workItem from="1602568455579" duration="7723000" />
+      <workItem from="1602568455579" duration="8071000" />
+      <workItem from="1602682044885" duration="2862000" />
     </task>
     <servers />
   </component>
@@ -113,5 +127,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#ConsoleChart.Program.Main" memberName="line" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

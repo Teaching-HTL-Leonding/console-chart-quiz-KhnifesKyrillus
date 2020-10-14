@@ -15,7 +15,9 @@ namespace ConsoleChart
             }
 
             List<ChartItem> items = new List<ChartItem>();
+
             string line = Console.ReadLine();
+
             string[] categories = line.Split('\t');
             var textIndex = Array.IndexOf(categories, args[0]);
             var valueIndex = Array.IndexOf(categories, args[1]);
@@ -33,6 +35,7 @@ namespace ConsoleChart
                 line = Console.ReadLine();
             }
 
+            if (items.Count < 1) return;
             ChartController controller = args.Length == 3
                 ? new ChartController(int.Parse(args[2]))
                 : new ChartController();

@@ -9,7 +9,7 @@ namespace ConsoleChart
         public ChartItem(string text, int value)
         {
             this.text = text;
-            this.Value = value;
+            Value = value;
         }
 
         public string Text

@@ -22,33 +22,39 @@ namespace ConsoleChart
 
         public void Print(IEnumerable<IGrouping<string, ChartItem>> enumerable)
         {
-            var result = enumerable
-                .Select(
-                    g => new
-                    {
-                        g.Key,
-                        Value = g.Sum(s => s.Value)
-                    }).ToList();
+            List<ChartItem> result = GroupList(enumerable);
 
-            result = result.OrderByDescending(r => r.Value).ToList();
             MaxValue = result.First().Value;
             if (length == 0) length = result.Count;
 
             var count = 0;
-            foreach (var line in result)
+            foreach (ChartItem line in result)
             {
                 if (count >= length) return;
-                Console.Write($"{line.Key,-70}|\t");
+                Console.Write($"{line.Text,-70}|\t");
                 PrintBlanks(line.Value);
                 Console.WriteLine();
                 count++;
             }
         }
 
+        private static List<ChartItem> GroupList(IEnumerable<IGrouping<string, ChartItem>> enumerable)
+        {
+            List<ChartItem> result = enumerable
+                .Select(
+                    entry => new ChartItem(
+                        entry.Key,
+                        entry.Sum(e => e.Value)
+                    )).ToList().OrderByDescending(r => r.Value).ToList();
+            ;
+            return result;
+        }
+
         private void PrintBlanks(int value)
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
-            for (var i = 0; i < CalculatePercentage(value); i++) Console.Write(" ");
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.Write(new string(' ',
+                CalculatePercentage(value)));
 
             Console.ResetColor();
         }
